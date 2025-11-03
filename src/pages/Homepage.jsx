@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Menu, X, Phone, Mail, MapPin, Clock } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
+import dianeProfile from '../assets/dianeProfile.jpg';
+import yvonneProfile from '../assets/yvonneProfile.jpg';
+import renaeProfile from '../assets/renaeProfile.jpg';
+
 export default function WellnessHomepage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -28,7 +32,7 @@ export default function WellnessHomepage() {
       
       // Send email using the form element
       await emailjs.sendForm(
-        'service_585i5tj',      // Your service ID
+        'service_zovpgec',      // Your service ID
         'template_fb98x6n',     // Your template ID
         e.target                // The form element
       );
@@ -140,7 +144,7 @@ export default function WellnessHomepage() {
         <div className="max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">About Our Practice</h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            At Diane Hynes Wellness, we believe in the body's innate ability to heal itself. Our practice combines time-honored healing traditions with contemporary therapeutic techniques to address the root causes of discomfort and disease.
+            At Hope Wellness Healing Center, we believe in the body's innate ability to heal itself. Our practice combines time-honored healing traditions with contemporary therapeutic techniques to address the root causes of discomfort and dis-ease.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
             Whether you're seeking relief from chronic pain, stress reduction, or simply looking to maintain optimal health, our compassionate practitioners are here to support your wellness journey with personalized care and attention.
@@ -170,21 +174,70 @@ export default function WellnessHomepage() {
       <section id="practitioners" className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Practitioners</h3>
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
-                <span className="text-4xl font-bold text-teal-700">DH</span>
+                <img
+                    src={dianeProfile}
+                    alt="YH"
+                    className="w-full h-full object-cover rounded-full"
+                />
               </div>
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Diane Hynes</h4>
-                <p className="text-teal-600 font-semibold mb-4">Founder & Lead Practitioner</p>
+                <p className="text-teal-600 font-semibold mb-4">Founder & Wellness Practitioner</p>
                 <p className="text-gray-700 leading-relaxed">
-                  With over two decades of experience in holistic healing, Diane has dedicated her life to helping others achieve optimal wellness. She is certified in multiple therapeutic modalities and brings a deeply compassionate, intuitive approach to her practice. Diane believes in treating the whole person—mind, body, and spirit—and works closely with each client to create personalized treatment plans that address their unique needs and goals.
+                  With over three decades of experience in holistic healing, Diane has dedicated her life to helping others achieve optimal wellness. She is certified in multiple therapeutic modalities and brings a deeply compassionate, intuitive approach to her practice. Diane believes in treating the whole person—mind, body, and spirit—and works closely with each client to create personalized treatment plans that address their unique needs and goals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
+                    src={yvonneProfile}
+                    alt="YH"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Yvonne Reich</h4>
+                <p className="text-teal-600 font-semibold mb-4">Nurturing your soul and your healing journey</p>
+                <p className="text-gray-700 leading-relaxed">
+                  As a professional member of the International Center for Reiki. My approach is based in compassion
+and works with the body's innate ability for self-healing. Each session begins with quantum frequency
+clearing and then healing with Reiki and Reiki attuned instruments. I help to uncover and heal
+underlying causes of dis-ease in the body, while empowering you with tools for restoring your natural
+state of vibrant health and happiness. In addition, I teach people how to heal themselves, family,
+friends, and pets with in-person and online Reiki Training &amp; Certification Classes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
+                    src={renaeProfile}
+                    alt="YH"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Renae Jensen</h4>
+                <p className="text-teal-600 font-semibold mb-4">TBD</p>
+                <p className="text-gray-700 leading-relaxed">
+                  I have dedicated my life to guiding others to find simple and powerful solutions to their problems.
+ I specialize in the science and wisdom of Conscious Design and Feng Shui. I believe in the body-mind-spirit connection. I believe that healthy space creates healthy people.
                 </p>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Contact Section */}
@@ -213,7 +266,7 @@ export default function WellnessHomepage() {
                   <MapPin className="mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p>1298 Hope Bridgeville<br />Hope, NJ 07825</p>
+                    <p>1298 Hope Bridgeville Rd<br />Hope, NJ 07844</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
