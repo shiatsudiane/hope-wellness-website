@@ -227,13 +227,12 @@ export default function WellnessHomepage() {
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Yvonne Reich</h4>
                 <p className="text-teal-600 font-semibold mb-4">Reiki Master</p>
                 <p className="text-gray-700 leading-relaxed">
-                  As a professional member of the International Center for Reiki. My approach is based in compassion
-and works with the body's innate ability for self-healing. Each session begins with quantum frequency
+                  As a professional member of the International Center for Reiki. My approach is based in compassion and works with the body's innate ability for self-healing. Each session begins with quantum frequency
 clearing and then healing with Reiki and Reiki attuned instruments. I help to uncover and heal
 underlying causes of dis-ease in the body, while empowering you with tools for restoring your natural
 state of vibrant health and happiness. In addition, I teach people how to heal themselves, family,
 friends, and pets with in-person and online Reiki Training &amp; Certification Classes.
-                </p>
+                </p>s
               </div>
             </div>
           </div>
