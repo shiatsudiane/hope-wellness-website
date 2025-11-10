@@ -6,6 +6,8 @@ import dianeProfile from '../assets/dianeProfile.jpg';
 import yvonneProfile from '../assets/yvonneProfile.jpg';
 import renaeProfile from '../assets/renaeProfile.jpg';
 import michaelProfile from '../assets/michaelProfile.png';
+import gabeProfile from '../assets/gabeProfile.png';
+import suzanneProfile from '../assets/suzanneProfile.jpg';
 
 export default function WellnessHomepage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -198,6 +200,24 @@ export default function WellnessHomepage() {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
+                    src={michaelProfile}
+                    alt="MP"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Michael Protzel</h4>
+                <p className="text-teal-600 font-semibold mb-4">Uprighting Coach</p>
+                <p className="text-gray-700 leading-relaxed">
+                    Michael Protzel trained in the Alexander Technique, certified in 1987 as a teacher by both the British and American Societies. He went his own way around the turn of the century, introducing into the public conversation the idea of "weight commitment" and its impact on the quality of our uprighting (i.e., the act of lifting ourselves into verticality as we live our lives).                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
                     src={yvonneProfile}
                     alt="YR"
                     className="w-full h-full object-cover rounded-full"
@@ -242,16 +262,16 @@ friends, and pets with in-person and online Reiki Training &amp; Certification C
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
-                    src={michaelProfile}
-                    alt="MP"
+                    src={gabeProfile}
+                    alt="GA"
                     className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-2">Michael Protzel</h4>
-                <p className="text-teal-600 font-semibold mb-4">Uprighting Coach</p>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Gabe Aiello</h4>
+                <p className="text-teal-600 font-semibold mb-4">Astrologer, Meditation Coach</p>
                 <p className="text-gray-700 leading-relaxed">
-                    Michael Protzel trained in the Alexander Technique, certified in 1987 as a teacher by both the British and American Societies. He went his own way around the turn of the century, introducing into the public conversation the idea of "weight commitment" and its impact on the quality of our uprighting (i.e., the act of lifting ourselves into verticality as we live our lives).                </p>
+                  With over 50 years of experience reading charts and interpreting dreams, alongside exploring astrological insights gleaned from mythology, philosophy, religion, indigenous cultures, and wisdom traditions, both ancient and modern, I have had the opportunity to share these creative perspectives with others. Thanks to relationships with many kind teachers and inner guides.                </p>
               </div>
             </div>
           </div>
@@ -260,21 +280,21 @@ friends, and pets with in-person and online Reiki Training &amp; Certification C
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
-                    src={michaelProfile}
-                    alt="MP"
+                    src={suzanneProfile}
+                    alt="SM"
                     className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-2">Gabe Aiello</h4>
-                <p className="text-teal-600 font-semibold mb-4">Astrologer, Meditation Coach</p>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Suzanne Minicozzi</h4>
+                <p className="text-teal-600 font-semibold mb-4">Yoga Instructor and Wellness Practitioner</p>
                 <p className="text-gray-700 leading-relaxed">
-                    With 50+ years of experience with a variety of spiritual traditions and many years as a practicing astrologer, Gabriel is a calm light in our evolving world. He was a founding member of Snow Lion Publications, a publishing effort dedicated to the preservation of Tibetan Culture, and publisher of Kindness, Clarity, and Insight, the first western publication of the most co-authored writer in the world, His Holiness the Dalai Lama. He can be reached at gsaiello@gmail.com. 
+                  Suzanne offers both group and private yoga sessions that focus on alignment, breathwork, and mindfulness. With a background in holistic health, she integrates wellness practices into her teaching to support overall well-being. Suzanne is passionate about helping individuals connect with their bodies and cultivate inner peace through yoga, shiatsu, thai massage, and herbal consultations.
                 </p>
               </div>
             </div>
           </div>
-        </div>
+        </div>      
         
       </section>
 
