@@ -5,6 +5,9 @@ import emailjs from '@emailjs/browser';
 import dianeProfile from '../assets/dianeProfile.jpg';
 import yvonneProfile from '../assets/yvonneProfile.jpg';
 import renaeProfile from '../assets/renaeProfile.jpg';
+import michaelProfile from '../assets/michaelProfile.png';
+import gabeProfile from '../assets/gabeProfile.png';
+import suzanneProfile from '../assets/suzanneProfile.jpg';
 
 export default function WellnessHomepage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -179,7 +182,7 @@ export default function WellnessHomepage() {
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
                     src={dianeProfile}
-                    alt="YH"
+                    alt="DH"
                     className="w-full h-full object-cover rounded-full"
                 />
               </div>
@@ -197,14 +200,32 @@ export default function WellnessHomepage() {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
+                    src={michaelProfile}
+                    alt="MP"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Michael Protzel</h4>
+                <p className="text-teal-600 font-semibold mb-4">Uprighting Coach</p>
+                <p className="text-gray-700 leading-relaxed">
+                    Michael Protzel trained in the Alexander Technique, certified in 1987 as a teacher by both the British and American Societies. He went his own way around the turn of the century, introducing into the public conversation the idea of "weight commitment" and its impact on the quality of our uprighting (i.e., the act of lifting ourselves into verticality as we live our lives).                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
                     src={yvonneProfile}
-                    alt="YH"
+                    alt="YR"
                     className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Yvonne Reich</h4>
-                <p className="text-teal-600 font-semibold mb-4">Nurturing your soul and your healing journey</p>
+                <p className="text-teal-600 font-semibold mb-4">Reiki Master</p>
                 <p className="text-gray-700 leading-relaxed">
                   As a professional member of the International Center for Reiki. My approach is based in compassion
 and works with the body's innate ability for self-healing. Each session begins with quantum frequency
@@ -222,13 +243,13 @@ friends, and pets with in-person and online Reiki Training &amp; Certification C
               <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
                 <img
                     src={renaeProfile}
-                    alt="YH"
+                    alt="RJ"
                     className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Renae Jensen</h4>
-                <p className="text-teal-600 font-semibold mb-4">TBD</p>
+                <p className="text-teal-600 font-semibold mb-4">Feng Shui Consultant</p>
                 <p className="text-gray-700 leading-relaxed">
                   I have dedicated my life to guiding others to find simple and powerful solutions to their problems.
  I specialize in the science and wisdom of Conscious Design and Feng Shui. I believe in the body-mind-spirit connection. I believe that healthy space creates healthy people.
@@ -236,7 +257,44 @@ friends, and pets with in-person and online Reiki Training &amp; Certification C
               </div>
             </div>
           </div>
-        </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
+                    src={gabeProfile}
+                    alt="GA"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Gabe Aiello</h4>
+                <p className="text-teal-600 font-semibold mb-4">Astrologer, Meditation Coach</p>
+                <p className="text-gray-700 leading-relaxed">
+                  With over 50 years of experience reading charts and interpreting dreams, alongside exploring astrological insights gleaned from mythology, philosophy, religion, indigenous cultures, and wisdom traditions, both ancient and modern, I have had the opportunity to share these creative perspectives with others. Thanks to relationships with many kind teachers and inner guides.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm mb-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+              <div className="w-32 h-32 bg-teal-100 rounded-full flex items-center justify-center shrink-0">
+                <img
+                    src={suzanneProfile}
+                    alt="SM"
+                    className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Suzanne Minicozzi</h4>
+                <p className="text-teal-600 font-semibold mb-4">Yoga Instructor and Wellness Practitioner</p>
+                <p className="text-gray-700 leading-relaxed">
+                  Suzanne offers both group and private yoga sessions that focus on alignment, breathwork, and mindfulness. With a background in holistic health, she integrates wellness practices into her teaching to support overall well-being. Suzanne is passionate about helping individuals connect with their bodies and cultivate inner peace through yoga, shiatsu, thai massage, and herbal consultations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>      
         
       </section>
 
@@ -330,7 +388,7 @@ friends, and pets with in-person and online Reiki Training &amp; Certification C
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-gray-400">© 2025 Diane Hynes Wellness. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Hope Wellness. All rights reserved.</p>
         </div>
       </footer>
     </div>
