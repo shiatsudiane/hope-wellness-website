@@ -82,6 +82,22 @@ export default function WellnessHomepage() {
     {
       name: "Natural Sitting & Standing",
       description: "Learn to break years of bad sitting and standing habits, and restore the highly evolved, easy and efficient uprighting ability we were all born with. www.uprighting.com."
+    },
+    {
+      name: "Reiki",
+      description: "Energy healing technique using light touch to promote relaxation, balance, and natural healing."
+    },
+    {
+      name: "Yoga",
+      description: "Mind-body practice combining movement, breathwork, and meditation to build strength flexibility."
+    },
+    {
+      name: "Thai Massage",
+      description: "Traditional bodywork integrating assisted stretching and acupressure to improve mobility and release tension."
+    },
+    {
+      name: "Feng Shui",
+      description: "Ancient Chinese spacial practice aligning environments to enhance energy flow, harmony, and well-being."
     }
   ];
 
