@@ -78,6 +78,10 @@ export default function WellnessHomepage() {
     {
       name: "Sound Bowl & Tuning Fork Healing",
       description: "Vibrational therapy using sound frequencies to restore harmony and balance."
+    },
+    {
+      name: "Natural Sitting & Standing",
+      description: "Learn to break years of bad sitting and standing habits, and restore the highly evolved, easy and efficient uprighting ability we were all born with. www.uprighting.com."
     }
   ];
 
@@ -207,9 +211,10 @@ export default function WellnessHomepage() {
               </div>
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Michael Protzel</h4>
-                <p className="text-teal-600 font-semibold mb-4">Uprighting Coach</p>
+                <p className="text-teal-600 font-semibold mb-4">Innate Uprighting Restoration Teacher</p>
                 <p className="text-gray-700 leading-relaxed">
-                    Michael Protzel trained in the Alexander Technique, certified in 1987 as a teacher by both the British and American Societies. He went his own way around the turn of the century, introducing into the public conversation the idea of "weight commitment" and its impact on the quality of our uprighting (i.e., the act of lifting ourselves into verticality as we live our lives).                </p>
+                    Michael Protzel was trained as a teacher of the Alexander Technique. He's gone on to develop his own work, introducing into the public conversation the idea of "weight commitment" and its impact on how we sit and stand as we go about our daily routines.                
+                </p>
               </div>
             </div>
           </div>
