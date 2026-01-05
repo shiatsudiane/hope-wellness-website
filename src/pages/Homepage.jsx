@@ -9,6 +9,9 @@ import michaelProfile from '../assets/michaelProfile.png';
 import gabeProfile from '../assets/gabeProfile.png';
 import suzanneProfile from '../assets/suzanneProfile.jpg';
 
+import heroImage from '../assets/hero.jpg';
+
+
 export default function WellnessHomepage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -145,12 +148,23 @@ export default function WellnessHomepage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-teal-50 to-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+      <section
+        className="relative h-[100vh] min-h-[500px] flex items-center justify-center"
+        style={{
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/20"></div>
+
+        {/* Content */}
+        <div className="relative z-10 text-center px-4 max-w-4xl">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
             Your Journey to Wellness Begins Here
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-100 mb-8">
             Experience holistic healing through ancient wisdom and modern therapeutic practices
           </p>
           <a
@@ -161,6 +175,7 @@ export default function WellnessHomepage() {
           </a>
         </div>
       </section>
+
 
       {/* About Section */}
       <section id="about" className="py-16 px-4 sm:px-6 lg:px-8">
