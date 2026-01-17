@@ -190,6 +190,15 @@ export default function WellnessHomepage() {
         </div>
       </section>
 
+      <iframe 
+        src="https://calendar.google.com/calendar/embed?src=4b6fca28461d97fb5eff38d99caa5a6414bd8f4676a89d7e00cc9875277bcbaf%40group.calendar.google.com&ctz=America%2FNew_York" 
+        className="mx-auto mb-16 block"
+        style={{ border: 0 }}
+        width={800}
+        height={600}
+      >
+      </iframe>
+
       {/* Services Section */}
       <section id="services" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
